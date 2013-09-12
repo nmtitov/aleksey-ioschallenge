@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TestCell.h"
+#import "ObjectiveSugar.h"
+#import "AFNetworking.h"
 
-@interface TestViewController : UIViewController
+@interface TestViewController : UITableViewController
+
+- (IBAction)SortButtonPressed:(id)sender;
 
 @end

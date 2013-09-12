@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2A3B353DD424EEFBB1A45AB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 445AF251348845878A2E15E9 /* libPods.a */; };
 		F1AF6A7717E10F2F00CD8433 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AF6A7617E10F2F00CD8433 /* UIKit.framework */; };
 		F1AF6A7917E10F2F00CD8433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AF6A7817E10F2F00CD8433 /* Foundation.framework */; };
 		F1AF6A7B17E10F2F00CD8433 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AF6A7A17E10F2F00CD8433 /* CoreGraphics.framework */; };
@@ -17,10 +18,15 @@
 		F1AF6A8B17E10F2F00CD8433 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AF6A8A17E10F2F00CD8433 /* Default@2x.png */; };
 		F1AF6A8D17E10F2F00CD8433 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AF6A8C17E10F2F00CD8433 /* Default-568h@2x.png */; };
 		F1AF6A9017E10F2F00CD8433 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AF6A8F17E10F2F00CD8433 /* TestViewController.m */; };
-		F1AF6A9317E10F2F00CD8433 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1AF6A9117E10F2F00CD8433 /* TestViewController.xib */; };
+		F1AF6A9A17E10F8000CD8433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AF6A9917E10F8000CD8433 /* Main.storyboard */; };
+		F1AF6A9D17E1124A00CD8433 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AF6A9C17E1124A00CD8433 /* TestCell.m */; };
+		F1AF6AA117E1A38D00CD8433 /* comments_badge.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AF6A9F17E1A38D00CD8433 /* comments_badge.png */; };
+		F1AF6AA217E1A38D00CD8433 /* comments_badge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1AF6AA017E1A38D00CD8433 /* comments_badge@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04F694882DE14093ABAC7E1A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		445AF251348845878A2E15E9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1AF6A7317E10F2F00CD8433 /* Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1AF6A7617E10F2F00CD8433 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F1AF6A7817E10F2F00CD8433 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,7 +42,11 @@
 		F1AF6A8C17E10F2F00CD8433 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F1AF6A8E17E10F2F00CD8433 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		F1AF6A8F17E10F2F00CD8433 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		F1AF6A9217E10F2F00CD8433 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestViewController.xib; sourceTree = "<group>"; };
+		F1AF6A9917E10F8000CD8433 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F1AF6A9B17E1124A00CD8433 /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		F1AF6A9C17E1124A00CD8433 /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
+		F1AF6A9F17E1A38D00CD8433 /* comments_badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comments_badge.png; sourceTree = "<group>"; };
+		F1AF6AA017E1A38D00CD8433 /* comments_badge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comments_badge@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 				F1AF6A7717E10F2F00CD8433 /* UIKit.framework in Frameworks */,
 				F1AF6A7917E10F2F00CD8433 /* Foundation.framework in Frameworks */,
 				F1AF6A7B17E10F2F00CD8433 /* CoreGraphics.framework in Frameworks */,
+				E2A3B353DD424EEFBB1A45AB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +67,11 @@
 		F1AF6A6A17E10F2F00CD8433 = {
 			isa = PBXGroup;
 			children = (
+				F1AF6A9E17E1A28A00CD8433 /* Resources */,
 				F1AF6A7C17E10F2F00CD8433 /* Challenge */,
 				F1AF6A7517E10F2F00CD8433 /* Frameworks */,
 				F1AF6A7417E10F2F00CD8433 /* Products */,
+				04F694882DE14093ABAC7E1A /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +89,7 @@
 				F1AF6A7617E10F2F00CD8433 /* UIKit.framework */,
 				F1AF6A7817E10F2F00CD8433 /* Foundation.framework */,
 				F1AF6A7A17E10F2F00CD8433 /* CoreGraphics.framework */,
+				445AF251348845878A2E15E9 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,9 +99,11 @@
 			children = (
 				F1AF6A8517E10F2F00CD8433 /* TestAppDelegate.h */,
 				F1AF6A8617E10F2F00CD8433 /* TestAppDelegate.m */,
+				F1AF6A9917E10F8000CD8433 /* Main.storyboard */,
 				F1AF6A8E17E10F2F00CD8433 /* TestViewController.h */,
 				F1AF6A8F17E10F2F00CD8433 /* TestViewController.m */,
-				F1AF6A9117E10F2F00CD8433 /* TestViewController.xib */,
+				F1AF6A9B17E1124A00CD8433 /* TestCell.h */,
+				F1AF6A9C17E1124A00CD8433 /* TestCell.m */,
 				F1AF6A7D17E10F2F00CD8433 /* Supporting Files */,
 			);
 			path = Challenge;
@@ -107,6 +123,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F1AF6A9E17E1A28A00CD8433 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1AF6A9F17E1A38D00CD8433 /* comments_badge.png */,
+				F1AF6AA017E1A38D00CD8433 /* comments_badge@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1AF6A9617E10F2F00CD8433 /* Build configuration list for PBXNativeTarget "Challenge" */;
 			buildPhases = (
+				5D5B600E4988434BB41CBFD4 /* Check Pods Manifest.lock */,
 				F1AF6A6F17E10F2F00CD8433 /* Sources */,
 				F1AF6A7017E10F2F00CD8433 /* Frameworks */,
 				F1AF6A7117E10F2F00CD8433 /* Resources */,
+				130D61F177994771BCC7E3AE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,11 +190,46 @@
 				F1AF6A8917E10F2F00CD8433 /* Default.png in Resources */,
 				F1AF6A8B17E10F2F00CD8433 /* Default@2x.png in Resources */,
 				F1AF6A8D17E10F2F00CD8433 /* Default-568h@2x.png in Resources */,
-				F1AF6A9317E10F2F00CD8433 /* TestViewController.xib in Resources */,
+				F1AF6A9A17E10F8000CD8433 /* Main.storyboard in Resources */,
+				F1AF6AA117E1A38D00CD8433 /* comments_badge.png in Resources */,
+				F1AF6AA217E1A38D00CD8433 /* comments_badge@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		130D61F177994771BCC7E3AE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D5B600E4988434BB41CBFD4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F1AF6A6F17E10F2F00CD8433 /* Sources */ = {
@@ -177,6 +239,7 @@
 				F1AF6A8317E10F2F00CD8433 /* main.m in Sources */,
 				F1AF6A8717E10F2F00CD8433 /* TestAppDelegate.m in Sources */,
 				F1AF6A9017E10F2F00CD8433 /* TestViewController.m in Sources */,
+				F1AF6A9D17E1124A00CD8433 /* TestCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +252,6 @@
 				F1AF6A8017E10F2F00CD8433 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F1AF6A9117E10F2F00CD8433 /* TestViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F1AF6A9217E10F2F00CD8433 /* en */,
-			);
-			name = TestViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -260,6 +315,7 @@
 		};
 		F1AF6A9717E10F2F00CD8433 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F694882DE14093ABAC7E1A /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Challenge/Challenge-Prefix.pch";
@@ -271,6 +327,7 @@
 		};
 		F1AF6A9817E10F2F00CD8433 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F694882DE14093ABAC7E1A /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Challenge/Challenge-Prefix.pch";
@@ -299,6 +356,7 @@
 				F1AF6A9817E10F2F00CD8433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
